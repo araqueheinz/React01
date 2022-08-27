@@ -1,0 +1,115 @@
+.header__container {
+    position: relative;
+}
+
+.header {
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: #ff9f00;
+    margin: 0 25px;
+}
+
+.header__logoImage {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #ff9f00;
+}
+
+.header__logoTitle {
+    text-decoration: none;
+    border: 0;
+    color: white;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 14px;
+    border-collapse: separate;
+    margin: 0 10px;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #ff9f00;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;  
+    color: white;
+}
+
+.nav__itemLineOne {
+    font-size: 10px;
+}
+
+.nav__itemLineTwo {
+    font-size: 13px;
+    font-weight: 800; 
+}
+
+.nav__itemCart {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.fa-cart-arrow-down {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav__cartCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.suggestions {
+    position: absolute;
+    top: 60px;
+    left: 38%;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media(min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media(min-width: 768px) {
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media(min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
